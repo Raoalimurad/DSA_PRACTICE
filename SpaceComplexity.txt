@@ -1,0 +1,6 @@
+Actual Input Space: Input ke data structures ko store karne ke liye jo memory chahiye.
+Auxiliary Space: Algorithm ke chalne ke liye lagne wali extra memory.
+Space Complexity: Mostly auxiliary space ko represent karti hai.
+To, jab aap "space complexity" ke baare mein baat karte hain, aksar iska matlab sirf auxiliary space hota hai, aur actual input space ko algorithm ki complexity mein shamil nahi kiya jati
+
+
