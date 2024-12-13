@@ -1,0 +1,64 @@
+time complexity
+
+time complexity se murad ya nahi ka kitny time me code run howa 
+
+time complexity is amount of time taken as function of input size (n)
+
+Time Complexity ek measure hai jo hume batata hai ke ek algorithm ya function input size 
+𝑛
+n ke badhne ya kam hone par kitne operations perform karega.
+
+Agar input size 
+𝑛
+n barhta hai, operations bhi kis tarah se barhte hain? Linearly, exponentially, logarithmically, ya kisi aur tareeqe se?
+Agar input size 
+𝑛
+n kam hota hai, to operations ka kya asar hota hai?
+Is behavior ko mathematical tarah se represent karte hain Big-O Notation ke zariye, jo worst-case performance ka idea deta hai.
+
+Time complexity ek algorithm ka pattern hai jo describe karta hai ke input size ke badalne par total operations kaise change hote hain.
+
+
+the main reason of find time complexity.
+1)better system ko build kar sake.
+2) 2 algorithm ko calculate kar sake which one is better or faster.
+
+
+Big 0 Notation
+it give us worst case senario (also called upper bound) 0(n)
+
+EXAMPLE:
+f(n) = 4n^2 + 3n +5 
+condition to find time complexity
+1) ignore all constants.
+2)consider only largest term
+sol:
+n^2 + n + 1      ///ignore constants
+n^2              /// taken largest term
+0(n^2) is time complexity of this equation
+
+
+COMMON TIME Complexity
+1)0(1)----> constant time  complexity
+it comes when we dont use loops and recursion
+Example:
+if we sum of n dont using loops
+sum = n * (n+1)/2
+
+
+2)0(n) ---> linear time complexity
+n factorial
+
+int fact = 1  /////k = constant
+for(int i = 0; i< n; i++)   ////it is n 
+fact * = 1      //// k 
+so it become 0(n*k)---> k = 1 so 0(n)
+
+3) 0(n^2)& 0(n^3)
+it come in bubble sort selection sort
+0(n^2) when one nested loop used
+0(n^3) when two nested loop used
+
+4) 0(logn)
+it is good after 0(1)
+it comes form binary searech
