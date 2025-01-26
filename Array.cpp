@@ -13,7 +13,7 @@
 //        cout<<marks[i]<<endl;
 //    }
 
-// find small values
+// find small values in arrray
 // int small[6] = {2, 5, 6, 7, 8, 9};
 //     int size = sizeof(small) / sizeof(int);
 //     int smaller = small[0]; // Assume the first element is the smallest
