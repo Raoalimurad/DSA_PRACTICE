@@ -1,4 +1,5 @@
-
+//time complexity of it 0(2^n)
+///space complexity is 0(n)
 
 #include <iostream>
 using namespace std;
