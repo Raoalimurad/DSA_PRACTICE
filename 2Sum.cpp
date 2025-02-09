@@ -18,7 +18,7 @@ int main() {
     int target = 9;
     int n = sizeof(arr) / sizeof(int);
     
-    pair<int, int> result = searchSumPair(arr, target, n);  // Added missing semicolon
+    pair<int, int> result = searchSumPair(arr, target, n);  
 
     if (result.first != -1) {
         cout << "Indices: " << result.first << ", " << result.second << endl;
