@@ -1,0 +1,71 @@
+🔥 QUEUE – Most Easy Notes (For Life & Interviews)
+💡 What is a Queue?
+Queue is a linear data structure that follows FIFO (First In, First Out).
+Think of people standing in a line — first person goes out first.
+
+✅ Main Operations
+Operation	Name	Meaning
+enqueue()	Push	Add element at rear (end)
+dequeue()	Pop	    Remove element from front (start)
+front()	    Peek	     See the front element without removing
+
+🧠 Important Terms
+Term	Means
+Front	Position where you remove
+Rear	Position where you add
+
+📌 In code:
+
+head → front pointer
+
+tail → rear pointer
+
+
+unctions of STL Queue
+push()
+
+Description: Adds an element to the rear of the queue.
+
+Syntax: queue.push(value);
+
+Example: q.push(10);
+
+pop()
+
+Description: Removes the element from the front of the queue.
+
+Syntax: queue.pop();
+
+Example: q.pop();
+
+front()
+
+Description: Returns the element at the front of the queue (without removing it).
+
+Syntax: queue.front();
+
+Example: int frontVal = q.front();
+
+back()
+
+Description: Returns the element at the rear of the queue (without removing it).
+
+Syntax: queue.back();
+
+Example: int backVal = q.back();
+
+empty()
+
+Description: Checks if the queue is empty. Returns true if the queue is empty, otherwise false.
+
+Syntax: queue.empty();
+
+Example: if (q.empty()) { cout << "Queue is empty"; }
+
+size()
+
+Description: Returns the number of elements in the queue.
+
+Syntax: queue.size();
+
+Example: int size = q.size();
